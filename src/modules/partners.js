@@ -27,7 +27,7 @@ export const partners = () => {
                 e.preventDefault()
                 localStorage.setItem('restaurant', JSON.stringify(item))
                 if (localStorage.getItem('user')) {
-                    window.location.href = window.location.href + '/restaurant.html'
+                    window.location.href = './restaurant.html'
                 } else {
                     document.querySelector('.modal-auth').style.display = 'flex'
                 }
