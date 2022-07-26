@@ -35,7 +35,6 @@ export const menu = () => {
         data.forEach(({ description, id, image, name, price }) => {
             const card = document.createElement('div')
             card.classList.add('card')
-            console.log(description)
             card.innerHTML = `
         <img src = "${image}" alt = "${name}" class="card-image" />
             <div class="card-text">
